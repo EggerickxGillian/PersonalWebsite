@@ -1052,7 +1052,7 @@ footer.darkmode-ignore{
 
 .darkmode-toggle {
     z-index: 500;
-    padding-left: 9px !important;
+    padding-left: 9px;
     font-size: 18px;
 }
 .darkmode--activated .resume-btn{
