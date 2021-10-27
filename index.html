@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+    <html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="format-detection" content="telephone=no" />
+
+    <meta property="og:site_name" content="G. E" class="next-head" />
+	<meta property="og:title" content="Bienvenue sur G. E!" class="next-head" />
+	<meta property="og:description" content="Voici mon site web ! Porftolio et contact !" class="next-head" />
+	<meta property="og:type" content="website" class="next-head" />
+    <meta property="og:image" content="assets/img/icon.png" class="next-head" />
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:creator" content="@GillianEgg" />
+    <meta property="og:title" content="Bienvenue sur G. E !" />
+    <meta property="og:description" content="Voici mon site web ! Portfolio et contact !" />
+    <meta property="og:image" content="assets/img/icon.png" />
+    
+
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="icon" type="image/png" href="assets/img/icon.png" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/js/Remodal-master/dist/remodal.css">
+    <link rel="stylesheet" href="assets/js/Remodal-master/dist/remodal-default-theme.css">
+    <link rel="stylesheet" href="assets/js/fakeLoader.js-master/dist/fakeLoader.min.css">
+    <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
+
+
+    <script src="https://kit.fontawesome.com/e8904bdefc.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="assets/js/Remodal-master/dist/remodal.min.js"></script>
+    <script src="assets/js/fakeLoader.js-master/dist/fakeLoader.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+    
+
+    <title> Gillian Eggerickx </title>
+</head>
+    <body id="top">
+
+        <div class="fakeLoader"></div>
+
+        <div class="header-container">
+            <div class="header-brand">
+                <div class="header-image">
+                    <img src="assets/img/profil.jpeg" alt="Gillian Eggerickx">
+                </div>
+            </div>
+            <div class="header-content">
+                <div class="header-text">
+                    <h1> Gillian Eggerickx</h1>
+                    <p> Passionné par le développement web et notamment  </p>
+                    <p> le front-end, je suis toujours à la recherche de </p>
+                    <p> nouvelles expériences et moyens de m'améliorer.</p>
+                </div>
+                <div class="header-buttons">
+                    <a href="assets/files/CV_2021-05-05_Gillian_Eggerickx.pdf"><button class="resume-btn"><i class="fas fa-file-download"></i> Mon CV </button></a>
+                    <a href="contact.html"><button class="contact-header-btn"> Contact</button></a>
+                </div>
+            </div>
+            <div class="scroll-mouse">
+                <div class="mouse">
+                  <div class="scroller"></div>
+                </div>
+              </div>
+        </div>
+
+        <div class="navigation">
+            <div class="navigation-brand">
+                <span class="nav-brand-icon"><i class="fas fa-bullseye"></i></span>
+                <h2> Mon univers</h2>
+            </div>
+            <div class="navigation-container">
+                <button class="nav-btn active" data-target="portfolio"> Portfolio </button>
+                <button class="nav-btn" data-target="photos"> Photos </button>
+                <button class="nav-btn" data-target="about"> A propos </button>
+            </div>
+        </div>
+
+
+        <div class="portfolio-container tabcontent" id="portfolio">
+            <a href="https://impulscs.netlify.app/" target="_blank">
+                <div class="portfolio-blocks">
+                    <img src="assets/img/impulscs-min.png" alt="Impuls Computer Systems">
+                    <h1> Impuls Computer Systems</h1>
+                </div>
+            </a>
+            <a href="https://asblchrisalevents.netlify.app/" target="_blank">
+                <div class="portfolio-blocks">
+                    <img src="assets/img/asblchrisalevents-min.png" alt="ASBL Chrisal Events">
+                    <h1>ASBL Chrisal Events</h1>
+                </div>
+            </a>
+        </div>
+        
+        <div class="photos-container tabcontent" id="photos">
+            <!-- Add real photos -->
+            
+            <div class="gallery">
+                <div class="gallery-item">
+
+                    <a href="#modal1">
+                        <img class="photo" src="assets/img/photography/IMG_0341-min.jpeg" alt="Sunset">
+                    </a>
+
+                    <div class="remodal" data-remodal-id="modal1">
+                        <button data-remodal-action="close" class="remodal-close"></button>
+                        <img src="assets/img/photography/IMG_0341-min.jpeg" alt="Sunset">
+                    </div>
+
+                </div>
+                <div class="gallery-item">
+                    <a href="#modal2">
+                        <img class="photo" src="assets/img/photography/IMG_0010-min.jpg" alt="Austria">
+                    </a>
+
+                    <div class="remodal" data-remodal-id="modal2">
+                        <button data-remodal-action="close" class="remodal-close"></button>
+                        <img src="assets/img/photography/IMG_0010-min.jpg" alt="Austria">
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <a href="#modal3">
+                        <img class="photo" src="assets/img/photography/IMG_0269-min.JPG" alt="Austria">
+                    </a>
+
+                    <div class="remodal" data-remodal-id="modal3">
+                        <button data-remodal-action="close" class="remodal-close"></button>
+                        <img src="assets/img/photography/IMG_0269-min.JPG" alt="Austria">
+                    </div>
+                </div>  
+                <div class="gallery-item">
+                    <a href="#modal4">
+                        <img class="photo" src="assets/img/photography/IMG_0355-min.jpeg" alt="Sunset">
+                    </a>
+
+                    <div class="remodal" data-remodal-id="modal4">
+                        <button data-remodal-action="close" class="remodal-close"></button>
+                        <img src="assets/img/photography/IMG_0355-min.jpeg" alt="Sunset">
+                    </div>
+                </div> 
+            </div>
+            <div class="gallery">
+                <div class="gallery-item">
+                    <a href="#modal5">
+                        <img class="photo" src="assets/img/photography/IMG_3623-min.jpg" alt="Austria">
+                    </a>
+
+                    <div class="remodal" data-remodal-id="modal5">
+                        <button data-remodal-action="close" class="remodal-close"></button>
+                        <img src="assets/img/photography/IMG_3623-min.jpg" alt="Austria">
+                    </div>
+                </div> 
+                <div class="gallery-item">
+                    <a href="#modal6">
+                        <img class="photo" src="assets/img/photography/IMG_0015 1-min.JPG" alt="Austria">
+                    </a>
+
+                    <div class="remodal" data-remodal-id="modal6">
+                        <button data-remodal-action="close" class="remodal-close"></button>
+                        <img src="assets/img/photography/IMG_0015 1-min.JPG" alt="Austria">
+                    </div>
+                </div> 
+                <div class="gallery-item">
+                    <a href="#modal7">
+                        <img class="photo" src="assets/img/photography/IMG_0371-min.jpeg" alt="Sunset">
+                    </a>
+
+                    <div class="remodal" data-remodal-id="modal7">
+                        <button data-remodal-action="close" class="remodal-close"></button>
+                        <img src="assets/img/photography/IMG_0371-min.jpeg" alt="Sunset">
+                    </div>
+                </div> 
+                <div class="gallery-item">
+                    <a href="#modal8">
+                        <img class="photo" src="assets/img/photography/IMG_2947-min.jpg" alt="Sunset">
+                    </a>
+
+                    <div class="remodal" data-remodal-id="modal8">
+                        <button data-remodal-action="close" class="remodal-close"></button>
+                        <img src="assets/img/photography/IMG_2947-min.jpg" alt="Sunset">
+                    </div>
+                </div> 
+            </div>
+            <div class="gallery">
+                <div class="gallery-item">
+                    <a href="#modal9">
+                        <img class="photo" src="assets/img/photography/IMG_0054-min.jpg" alt="Night Photography">
+                    </a>
+
+                    <div class="remodal" data-remodal-id="modal9">
+                        <button data-remodal-action="close" class="remodal-close"></button>
+                        <img src="assets/img/photography/IMG_0054-min.jpg" alt="Night Photography">
+                    </div>
+                </div> 
+                <div class="gallery-item">
+                    <a href="#modal10">
+                        <img class="photo" src="assets/img/photography/IMG_0283-min.jpeg" alt="Night Photography">
+                    </a>
+
+                    <div class="remodal" data-remodal-id="modal10">
+                        <button data-remodal-action="close" class="remodal-close"></button>
+                        <img src="assets/img/photography/IMG_0283-min.jpeg" alt="Night Photography">
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <a href="#modal11">
+                        <img class="photo" src="assets/img/photography/IMG_0296-min.jpeg" alt="Night Photography">
+                    </a>
+
+                    <div class="remodal" data-remodal-id="modal11">
+                        <button data-remodal-action="close" class="remodal-close"></button>
+                        <img src="assets/img/photography/IMG_0296-min.jpeg" alt="Night Photography">
+                    </div>
+                </div> 
+                <div class="gallery-item">
+                    <a href="#modal12">
+                        <img class="photo" src="assets/img/photography/IMG_0012-min.jpg" alt="Night Photography">
+                    </a>
+
+                    <div class="remodal" data-remodal-id="modal12">
+                        <button data-remodal-action="close" class="remodal-close"></button>
+                        <img src="assets/img/photography/IMG_0012-min.jpg" alt="Night Photography">
+                    </div>
+                </div>  
+            </div>
+            <div class="gallery">
+                <div class="gallery-item">
+                    <a href="#modal13">
+                        <img class="photo" src="assets/img/photography/IMG_0067-min.jpg" alt="Sunset">
+                    </a>
+
+                    <div class="remodal" data-remodal-id="modal13">
+                        <button data-remodal-action="close" class="remodal-close"></button>
+                        <img src="assets/img/photography/IMG_0067-min.jpg" alt="Sunset">
+                    </div>
+                </div> 
+                <div class="gallery-item">
+                    <a href="#modal14">
+                        <img class="photo" src="assets/img/photography/IMG_0055-min.jpg" alt="Austria">
+                    </a>
+
+                    <div class="remodal" data-remodal-id="modal14">
+                        <button data-remodal-action="close" class="remodal-close"></button>
+                        <img src="assets/img/photography/IMG_0055-min.jpg" alt="Austria">
+                    </div>
+                </div> 
+            </div>
+        </div>
+ 
+
+
+        <div class="about-container tabcontent" id="about">
+            <div class="about-card">
+                <div class="about-profile-image">
+                    <img src="assets/img/profil.jpeg" alt="Eggerickx Gillian">
+                </div>
+                <div class="about-profile-social">
+                    <a href="https://twitter.com/GillianEgg" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/gillianeggerickx/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="mailto:eggerickxgillian@gmail.com"><i class="far fa-envelope"></i></a>
+                    <a href="https://www.linkedin.com/in/gillian-eggerickx-aa921421b/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/SimplyV" target="_blank"><i class="fab fa-github-square"></i></a>
+                </div>
+            </div>
+            <div class="about-content">
+                <h1> À propos de moi</h1>
+                <p> Hello ! Moi c'est Gillian, j'ai 19 ans et je suis passionné par le web. J'adore créer
+                    des interfaces web et découvrir de nouvelles choses. </p>
+
+                <p> Je suis aussi un grand passionné de photos, que ce soit de paysage ou de nature, en passant
+                    par le portrait ou la street photo, j'adore capturer des moments, les retoucher et en faire 
+                    quelque chose que j'ai créer moi-même et que je peux partager.
+                </p>
+                <p> La tech est aussi une de mes passions, j'adore découvrir de nouvelles technologies et savoir
+                    comment elles marchent. Grand fan de smartphone et de PC. Je suis par contre un utilisateur
+                    Mac, je possède actuellement un MacBook Air M1 et c'est mon outil de travail, c'est grâce à lui
+                    que je réalise tout ! L'écosystement que me propose Apple est indispensable pour un confort de 
+                    travail optimale !
+                </p>
+                <p>
+                    Mon travail te plaît ? Tu souhaites réaliser un site web mais tu n'as aucune connaissance ? N'hésite
+                    pas à m'envoyer un message et on peux en parler, et si tu souhaites tout simplement discuter avec moi, 
+                    tu es le bienvenue :) !
+                </p>
+                <a href="contact.html"><button class="contact-btn"> Me contacter :)</button></a>
+            </div>
+        
+        </div>
+        
+            <!-- 
+                - Material
+                - Links like social, github, codepen
+                - Passion
+
+            -->
+    
+
+        <footer class="darkmode-ignore">
+            <div class="footer-brand">
+                <h1> Gillian E.</h1>
+            </div>
+            <div class="footer-social">
+                <a href="https://twitter.com/GillianEgg" target="_blank"><button class="media-btn"><i class="fab fa-twitter"></i></button></a>
+                <a href="https://www.instagram.com/gillianeggerickx/" target="_blank"><button class="media-btn"><i class="fab fa-instagram"></i></button></a>
+                <a href="mailto:eggerickxgillian@gmail.com"><button class="media-btn"><i class="far fa-envelope"></i></button></a>
+                <a href="https://www.linkedin.com/in/gillian-eggerickx-aa921421b/" target="_blank"><button class="media-btn"><i class="fab fa-linkedin-in"></i></button></a>
+            </div>
+        </footer>
+        
+        <script src="assets/js/index.js"></script>
+            
+        </script>
+    </body>
+</html>

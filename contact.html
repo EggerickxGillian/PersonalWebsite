@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+    <html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta property="og:site_name" content="G. E" class="next-head" />
+	<meta property="og:title" content="Bienvenue sur G. E!" class="next-head" />
+	<meta property="og:description" content="Voici mon site web ! Porftolio et contact !" class="next-head" />
+	<meta property="og:type" content="website" class="next-head" />
+    <meta property="og:image" content="assets/img/icon.png" class="next-head" />
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:creator" content="@GillianEgg" />
+    <meta property="og:title" content="Bienvenue sur G. E !" />
+    <meta property="og:description" content="Voici mon site web ! Portfolio et contact !" />
+    <meta property="og:image" content="assets/img/icon.png" />
+
+    <link rel="stylesheet" href="assets/css/contact.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="assets/img/icon.png" />
+    
+    <script src="https://kit.fontawesome.com/e8904bdefc.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="assets/js/index.js"></script>
+
+    <title> Gillian Eggerickx </title>
+</head>
+    <body>
+
+       
+
+        <!---------- ADD SOCIAL --------------->
+
+        <div class="home-container">
+            <a href="index.html"><button class="home-btn"><i class="fas fa-reply"></i></button></a>
+        </div>
+
+        <div class="contact-container">
+            <div class="contact-brand">
+                <div class="contact-brand-introduction">
+                    <h1> Contactez-moi ! </h1>
+                    <p> Remplissez le formulaire pour </p>
+                    <p> m'envoyer un message !</p>
+                </div>
+
+                <div class="contact-form">
+                    <form netlify>
+                        <div class="form-name">
+                            <label for="name"> Votre nom </label>
+                            <input type="text" id="name" name="name" required>
+                            <i class="far fa-user-circle"></i>
+                        </div>
+                        <div class="form-mail">
+                            <label for="mail"> Votre e-mail</label>
+                            <input type="email" id="mail" name="mail" required>
+                            <i class="far fa-envelope"></i>
+                        </div>
+                        <div class="form-message">
+                            <label for="message"> Votre message </label>
+                            <textarea name="message" required></textarea>
+                        </div>
+                        <div class="form-buttons">
+                            <a href="mailto:eggerickxgillian@gmail.com" class="options-btn"><i class="far fa-envelope"></i> </button></a>
+                            <button type="submit" class="send-btn"> Envoyer mon message</button>
+                        </div>
+                    </form>
+                </div>                
+        </div>
+
+    </body>
+</html>
