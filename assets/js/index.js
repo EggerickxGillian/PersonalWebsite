@@ -1,23 +1,8 @@
 
-// Initialising AOS 
-
-AOS.init();
-
 // Initialising remodal
 
 $('[data-remodal-id=modal]').remodal();
 
-// Initialising fakeLoader
-
-
-
-$(window).ready(function () {
-   $.fakeLoader({
-       bgColor: '#000000',
-       spinner:"spinner1",
-       timeToHide: 2200
-   });
-});
 
 // Initialising DarkModeJS ( options )
 

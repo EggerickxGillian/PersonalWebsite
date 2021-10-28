@@ -194,7 +194,9 @@ html, body{
     background: black !important;
     color: white !important;
 }
-
+.nav-btn:focus{
+    border: 2px solid #DADADA;
+}
 .tabcontent{
     display: none !important;
     animation: tabLoad ease 1s;
@@ -212,7 +214,7 @@ html, body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 200px;
+    margin-top: 100px;
 }
 .portfolio-container a{
     text-decoration: none;
@@ -252,7 +254,7 @@ html, body{
     margin-right: auto;
     display: flex;
     flex-direction: column;
-    margin-top: 200px;
+    margin-top: 100px;
 }
 .gallery{
     display: -ms-grid;
@@ -350,8 +352,10 @@ html, body{
     margin-bottom: 40px;
     font-size: 32px;
 }
+
 .about-content p{
     margin-top: 25px;
+    color: black;
 }
 .about-content button{
     margin-top: 25px;
@@ -1027,7 +1031,7 @@ footer.darkmode-ignore{
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        margin-top: 200px;
+        margin-top: 100px;
     }
 }
 @keyframes fadeInAnimation {
@@ -1140,3 +1144,7 @@ footer.darkmode-ignore{
     background: white;
     color: black;
 }
+.darkmode--activated .about-content p{
+    color: white;
+}
+
